@@ -1,17 +1,21 @@
-import { BrowserRouter as Router, Routes } from "react-router-dom"
-import Appbar from "../components/Appbar";
+import Footer from "../Footer"
+import Navbar from "../Navbar"
+import Card from "../components/blog/Card"
+import Login from "../pages/Login"
 
 
- const AppRouter = () => {
-    return(
-        
-        <Router>
-            <Appbar/>
-            <Routes>
 
-            </Routes>
-        </Router>
-    )
+const AppRouter = () => {
+  return (
+<>
+    
+       <Navbar/>
+       <Card/>  
+       <Footer/>
+ 
+ 
+</>
+  )
 }
 
 export default AppRouter

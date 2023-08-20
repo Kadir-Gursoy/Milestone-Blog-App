@@ -11,4 +11,4 @@ reducer: {
 }
 
 })
-export default store
+export default store 
